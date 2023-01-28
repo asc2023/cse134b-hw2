@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <script>document.getElementById("demo").innerHTML = "Hello JavaScript!";
+    </script>
+    <title>Document</title>
+    <style>
+        *{
+            border: 3px;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="myCanvas">
+        Your browser does not support the canvas tag.
+        </canvas>
+        
+        <script>
+        var canvas = document.getElementById("myCanvas");
+        var ctx = canvas.getContext("2d");
+        ctx.fillStyle = "#0000FF";
+        ctx.fillRect(0, 0, 80, 80);
+        </script>
+    <header> </header>
+    <nav>
+        <ul>
+            <li><a href="/home/">Home</a> |</li>
+            <li><a href="/Contact/">Contact</a> |</li>
+            <li><a href="//">JavaScript</a> |</li>
+            <li><a href="/python/">Python</a></li>
+        </ul>
+    </nav>
+    <h1>Anthony Chen</h1>
+    <p>My name is <b>Anthony Chen</b>, I am currently a <code>fourth year</code> at UCSD <aside>I am a transfer student</aside></p>
+    <div class="mystery">I am how many years old?</div>
+    <section>
+        <br/>
+    <h2>About Me</h2>
+    <p>I am currently learning web development and would like to get an internship soon. I am proficient in C, C++, Java, and Python.</p>
+    </section>
+    <section>
+        <h3>My Projects</h3>
+        <pre>I have been working on multiple class projects and I am currently working on a game on Unity</pre>
+    <p></p>
+    </section>
+    <hr>
+    <section>
+        <h3>Here are some fun pictures, videos, and memes</h3>
+        <img src="https://cdna.artstation.com/p/assets/images/images/044/112/730/large/chou-xiaopan-dragonmancer-yasuo.jpg?1639117707" alt="yasuo" height="500"/>
+        <video height="500" width="400" controls><source src="https://archive.org/download/Popeye_forPresident/Popeye_forPresident_512kb.mp4" type="video/mp4"></video>
+        <picture>
+            <source srcset="https://64.media.tumblr.com/328fd7e20a812339d6e1985163de9e8a/4dfc8b1f90cad81f-ca/s1280x1920/1b8eab84df500c025d05b16020bde8f102f9409b.jpg"  media="(orientation: portrait)">
+            <img src="https://img.wattpad.com/8b0e6692c56b6edd7b3172a690cc61f4c6648ee7/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f7651755067625f357837734333513d3d2d3436342e313561343166646661316130636334613731363238373238303336352e6a7067?s=fit&w=720&h=720"/>
+        </picture>
+        <iframe src="https://www.w3schools.com/html/html_iframe.asp" height="200" width="300" title="I Frame"></iframe>
+        <audio controls>
+            <source src="http://commondatastorage.googleapis.com/codeskulptor-demos/DDR_assets/Kangaroo_MusiQue_-_The_Neverwritten_Role_Playing_Game.mp3" type="audio/mpeg">
+            
+            Your browser does not support the audio tag.
+          </audio>
+    </section>
+    <br/>
+    <section>
+        <h2>Here is my weekly TODO list</h2>
+        <ol>
+            <li>Do leetcode</li>
+            <li>Do some pullups</li>
+            <li>Do pushups</li>
+            <li>Do squats</li>
+        </ol>   
+    </section>
+    <br/>
+        <h2>Rating and Contact Me</h2>
+        <label for="rating">Rate my website:</label>
+        <select id="rating">
+            <optgroup label="Unsatisfactory">
+                <option>One Star</option>
+                <option>Two Star</option>
+                <option>Three Star</option>
+            </optgroup>
+            <optgroup label="Satisfactory">
+                <option>four stars</option>
+                <option>five stars</option>
+                <option>Omega star</option>
+            </optgroup>
+         </select>
+         <hr>
+         <form >
+            <fieldset>
+                <legend>Your Name</legend>
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname" value="George"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname" value="Washington"><br><br>
+                <input type="submit" value="Submit">
+            </fieldset>
+            
+          </form>
+          <caption>What's your name?</caption>
+          <h3>datalist</h3>
+          <label for="choices">Choose a name:</label>
+          <input list="names" id="name-choice" name="name-choice">
+          <datalist id="names">
+            <option value="John">
+            <option value="Jason">
+            <option value="Dickson">
+            <option value="Jeffrey">
+            <option value="Chris">
+        </datalist>
+        <table>
+            <colgroup>
+                <col span="2" style="background-color:red">
+                <col style="background-color:yellow">
+              </colgroup>
+            <tr>
+              <th>Month</th>
+              <th>Spendings</th>
+            </tr>
+            <tr>
+              <td>January</td>
+              <td>$120</td>
+            </tr>
+          </table>
+        <select id="memes">
+            <option value="bc">Bing Chilling</option>
+            <option value="cbm">Chinese Bald Man</option>
+            <option value="dam">Dancing Asian Man</option>
+            <option value="sc">Social Credit</option>
+          </select>
+          <textarea id="area" name="testing" rows="3" col="4">Never gonna give you up </textarea>
+          <br/>
+          <details>
+            <summary>Spaghetti</summary>
+            <p>I like spaghetti, it is secretly one of my favorite foods, I also use it instead of the f-word</p>
+          </details>
+          <button type="button">Useless Button</button>
+          <template>
+            <h2>saved image</h2>
+            <img src="https://cdn.vox-cdn.com/thumbor/wfbQ3XccV6SxGMt1l6zBPL3Xg7o=/0x0:1192x795/1400x1050/filters:focal(596x398:597x399)/cdn.vox-cdn.com/uploads/chorus_asset/file/22312759/rickroll_4k.jpg" width="200" height="200">
+          </template>
+    <footer></footer>
+    
+    
+    <span></span>
+    <b>
+    </b>
+    <i></i>
+    <strong></strong>
+    <em></em>
+    <figure>
+        <img src="https://i.kym-cdn.com/entries/icons/original/000/040/941/whomstcover.jpg"
+             alt="cat">
+        <figcaption>Cute Cat</figcaption>
+    </figure>
+    <svg width="100" height="100">
+        <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="pink" />
+      </svg>
+
+
+
+</body>
+</html>
